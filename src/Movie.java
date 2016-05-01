@@ -8,8 +8,8 @@ public class Movie
 
 	public Movie(String newtitle, int newpriceCode)
 	{
-		title = newtitle;
-		priceCode = newpriceCode;
+		this.title = newtitle;
+		this.setPriceCode(newpriceCode);
 	}
 
 	public int getPriceCode()
