@@ -57,6 +57,7 @@ class Customer
 		return result;
 	}
 
+	//Extracted logic from statement()
 	private double amountFor(Rental each)
 	{
 		double thisAmount = 0;
